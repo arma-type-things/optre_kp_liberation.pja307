@@ -1,41 +1,41 @@
 /*
-    Needed Mods:
-    - None
+Needed Mods:
+- None
 
-    Optional Mods:
-    - None
+Optional Mods:
+- None
 */
 
 // Enemy infantry classes
-opfor_officer = "O_officer_F";                                          // Officer
-opfor_squad_leader = "O_Soldier_SL_F";                                  // Squad Leader
-opfor_team_leader = "O_Soldier_TL_F";                                   // Team Leader
-opfor_sentry = "O_Soldier_lite_F";                                      // Rifleman (Lite)
-opfor_rifleman = "O_Soldier_F";                                         // Rifleman
-opfor_rpg = "O_Soldier_LAT_F";                                          // Rifleman (LAT)
-opfor_grenadier = "O_Soldier_GL_F";                                     // Grenadier
-opfor_machinegunner = "O_Soldier_AR_F";                                 // Autorifleman
-opfor_heavygunner = "O_HeavyGunner_F";                                  // Heavy Gunner
-opfor_marksman = "O_soldier_M_F";                                       // Marksman
-opfor_sharpshooter = "O_Sharpshooter_F";                                // Sharpshooter
-opfor_sniper = "O_sniper_F";                                            // Sniper
-opfor_at = "O_Soldier_AT_F";                                            // AT Specialist
-opfor_aa = "O_Soldier_AA_F";                                            // AA Specialist
-opfor_medic = "O_medic_F";                                              // Combat Life Saver
-opfor_engineer = "O_engineer_F";                                        // Engineer
-opfor_paratrooper = "O_soldier_PG_F";                                   // Paratrooper
+opfor_officer = "OPTRE_Ins_URF_Officer";											//Officer
+opfor_squad_leader = "OPTRE_Ins_URF_SquadLead";									//Squad Leader
+opfor_team_leader = "OPTRE_Ins_URF_TeamLead";									//Team Leader
+opfor_sentry = "OPTRE_Ins_URF_Rifleman_Light";										//Rifleman (Lite)
+opfor_rifleman = "OPTRE_Ins_URF_Rifleman_AR";											//Rifleman (MA5)
+opfor_rpg = "OPTRE_Ins_URF_Rifleman_AT";											//Rifleman (LAT)
+opfor_grenadier = "OPTRE_Ins_URF_Grenadier";										//Grenadier
+opfor_machinegunner = "OPTRE_Ins_URF_Autorifleman";									//Autorifleman
+opfor_heavygunner = "OPTRE_Ins_URF_Breacher";									//Heavy Gunner
+opfor_marksman = "OPTRE_Ins_URF_Rifleman_BR";										//Marksman (BR55)
+opfor_sharpshooter = "OPTRE_Ins_URF_Marksman";								//Sharpshooter
+opfor_sniper = "OPTRE_Ins_URF_Sniper";											//Sniper
+opfor_at = "OPTRE_Ins_URF_AT_Specialist";											//AT Specialist
+opfor_aa = "OPTRE_Ins_URF_AA_Specialist";											//AA Specialist
+opfor_medic = "OPTRE_Ins_URF_Medic";												//Combat Life Saver
+opfor_engineer = "OPTRE_Ins_URF_Engineer";										//Engineer
+opfor_paratrooper = "OPTRE_Ins_URF_Rifleman_AR";									//Paratrooper
 
 // Enemy vehicles used by secondary objectives.
-opfor_mrap = "O_MRAP_02_F";                                             // Ifrit
-opfor_mrap_armed = "O_MRAP_02_hmg_F";                                   // Ifrit (HMG)
-opfor_transport_helo = "O_Heli_Transport_04_bench_F";                   // Mi-290 Taru (Bench)
-opfor_transport_truck = "O_Truck_03_covered_F";                         // Tempest Transport (Covered)
-opfor_ammobox_transport = "O_Truck_03_transport_F";                     // Tempest Transport (Open) -> Has to be able to transport resource crates!
-opfor_fuel_truck = "O_Truck_03_fuel_F";                                 // Tempest Fuel
-opfor_ammo_truck = "O_Truck_03_ammo_F";                                 // Tempest Ammo
-opfor_fuel_container = "Land_Pod_Heli_Transport_04_fuel_F";             // Taru Fuel Pod
-opfor_ammo_container = "Land_Pod_Heli_Transport_04_ammo_F";             // Taru Ammo Pod
-opfor_flag = "Flag_CSAT_F";                                             // Flag
+opfor_mrap = "OPTRE_M12_FAV_APC";												//Warthog APC
+opfor_mrap_armed = "LM_OPCAN_Rake_FRI_HMG";									//Warthog (HMG)
+opfor_transport_helo = "LM_OPCAN_D77_A_SU";					//D77-TC/AV Pelican
+opfor_transport_truck = "OPTRE_m1015_mule_ins";							//Tempest Transport (Covered)
+opfor_ammobox_transport = "OPTRE_m1015_mule_ins";						//Tempest Transport (Open) -> Has to be able to transport resource crates!
+opfor_fuel_truck = "OPTRE_m1015_mule_ins";									//Tempest Fuel
+opfor_ammo_truck = "OPTRE_m1015_mule_ins";									//Tempest Ammo
+opfor_fuel_container = "Land_Pod_Heli_Transport_04_fuel_F";				//Taru Fuel Pod
+opfor_ammo_container = "Land_Pod_Heli_Transport_04_ammo_F";				//Taru Ammo Pod
+opfor_flag = "Flag_CSAT_F";												//CSAT Flag
 
 /* Adding a value to these arrays below will add them to a one out of however many in the array, random pick chance.
 Therefore, adding the same value twice or three times means they are more likely to be chosen more often. */
@@ -43,100 +43,353 @@ Therefore, adding the same value twice or three times means they are more likely
 /* Militia infantry. Lightweight soldier classnames the game will pick from randomly as sector defenders.
 Think of them like garrison or military police forces, which are more meant to control the local population instead of fighting enemy armies. */
 militia_squad = [
-    "O_soldierU_F",                                                     // Rifleman (Lite)
-    "O_soldierU_F",                                                     // Rifleman (Lite)
-    "O_soldierU_F",                                                     // Rifleman
-    "O_soldierU_F",                                                     // Rifleman
-    "O_soldierU_LAT_F",                                                 // Rifleman (AT)
-    "O_soldierU_AR_F",                                                  // Autorifleman
-    "O_soldierU_M_F",                                                   // Marksman
-    "O_soldierU_medic_F",                                               // Medic
-    "O_engineer_U_F"                                                    // Engineer
+	"LM_OPCAN_FRI_Rifleman_DES",												//Rifleman (Lite)
+	"OPTRE_Ins_ER_Farmer",														//Rifleman (Lite)
+	"LM_OPCAN_FRI_Officer_WDL",												//Officer
+	"LM_OPCAN_FRI_Officer_DES",												//Officer
+	"LM_OPCAN_FRI_Officer",												//Officer
+	"LM_OPCAN_KOS_Officer",												//Officer
+	"OPTRE_Ins_URF_Officer",												//Officer
+	"LM_OPCAN_SU_Officer",												//Officer
+	"LM_OPCAN_URA_Officer",												//Officer
+	"LM_OPCAN_URA_SL",														//SL
+	"OPTRE_Ins_URF_SquadeLead",														//SL
+	"OPTRE_Ins_URF_TeamLead",														//TL
+	"LM_OPCAN_KOS_SL",														//SL
+	"LM_OPCAN_KOS_TL",														//SL
+	"LM_OPCAN_URA_TL",														//TL
+	"LM_OPCAN_SE_SL",														//SL
+	"LM_OPCAN_FRI_SL_DES",														//SL
+	"LM_OPCAN_SU_TL",														//TL
+	"LM_OPCAN_FRI_TL_DES",														//TL
+	"LM_OPCAN_FRI_GL_DES",														//GL
+	"LM_OPCAN_FRI_TL_WDL",														//TL
+	"LM_OPCAN_FRI_GL_WDL",														//GL
+	"LM_OPCAN_SU_GL",														//GL
+	"LM_OPCAN_URA_GL",														//GL
+	"LM_OPCAN_URA_SL",														//SL
+	"LM_OPCAN_URA_TL",														//TL
+	"LM_OPCAN_SE_SL",														//SL
+	"LM_OPCAN_FRI_SL_DES",														//SL
+	"LM_OPCAN_SU_TL",														//TL
+	"LM_OPCAN_FRI_TL_DES",														//TL
+	"LM_OPCAN_FRI_TL",														//TL
+	"LM_OPCAN_FRI_SL",														//SL
+	"LM_OPCAN_FRI_GL_DES",														//GL
+	"LM_OPCAN_FRI_TL_WDL",														//TL
+	"LM_OPCAN_FRI_GL_WDL",														//GL
+	"LM_OPCAN_SU_GL",														//GL
+	"LM_OPCAN_FRI_GL",														//GL
+	"LM_OPCAN_URA_GL",														//GL
+	"OPTRE_Ins_ER_Guerilla_AR",														//Rifleman
+	"OPTRE_Ins_ER_MAdvisor",														//Militia Advisor
+	"OPTRE_Ins_URF_Observer",														//Observer
+	"LM_OPCAN_SU_Rifleman",														//Rifleman
+	"LM_OPCAN_URA_Rifleman",														//Rifleman
+	"OPTRE_Ins_ER_Guerilla_AR",														//Rifleman
+	"OPTRE_Ins_ER_Rebel_AT",													//Rifleman (AT)
+	"OPTRE_Ins_URF_Rifleman_AT",													//Rifleman (AT)
+	"OPTRE_Ins_URF_AT_Specialist",													//Rifleman (AT)
+	"OPTRE_Ins_URF_AS_Specialist",													//Rifleman (AA)
+	"LM_OPCAN_FRI_Rifleman_AT",													//Rifleman (AT)
+	"LM_OPCAN_KOS_Rifleman_AT",													//Rifleman (AT)
+	"LM_OPCAN_FRI_Rifleman",													//Rifleman
+	"LM_OPCAN_FRI_Rifleman_AT_DES",													//Rifleman (AT)
+	"LM_OPCAN_FRI_Rifleman_DES",													//Rifleman
+	"LM_OPCAN_FRI_Rifleman_WDL",													//Rifleman
+	"LM_OPCAN_SU_Rifleman_AT",													//Rifleman (AT)
+	"LM_OPCAN_URA_Rifleman_AT",													//Rifleman (AT)
+	"OPTRE_Ins_ER_Deserter_GL",													//GL
+	"OPTRE_Ins_URF_Rifleman_AR",													//Rifleman
+	"OPTRE_Ins_URF_Rifleman_BR",													//Rifleman
+	"OPTRE_Ins_URF_Rifleman_Light",													//Rifleman
+	"OPTRE_Ins_URF_Grenadier",													//GL
+	"OPTRE_Ins_URF_UAV_Op",													//UAV Operator
+	"LM_OPCAN_SU_AutoRifleman",													//Autorifleman
+	"LM_OPCAN_URA_AutoRifleman",													//Autorifleman
+	"LM_OPCAN_FRI_AutoRifleman_DES",											//Autorifleman
+	"LM_OPCAN_KOS_AutoRifleman",											//Autorifleman
+	"LM_OPCAN_FRI_AutoRifleman",											//Autorifleman
+	"LM_OPCAN_FRI_AutoRifleman_WDL",									//Autorifleman
+	"OPTRE_Ins_URF_Autorifleman",											//Autorifleman
+	"OPTRE_Ins_ER_Militia_MG",											//Militia MG
+	"LM_OPCAN_URA_Breacher",												//Breacher
+	"LM_OPCAN_SU_Breacher",												//Breacher
+	"LM_OPCAN_FRI_Breacher",												//Breacher
+	"LM_OPCAN_FRI_Breacher_DES",												//Breacher
+	"OPTRE_Ins_ER_Insurgent_BR",													//Marksman
+	"LM_OPCAN_FRI_Marksman_DES",													//Marksman
+	"LM_OPCAN_FRI_Marksman",													//Marksman
+	"LM_OPCAN_URF_Marksman",													//Marksman
+	"LM_OPCAN_SU_Marksman",													//Marksman
+	"LM_OPCAN_URA_Marksman",													//Marksman
+	"LM_OPCAN_SU_Sniper",												//Sniper
+	"OPTRE_Ins_URF_Sniper",												//Sniper
+	"OPTRE_Ins_KOS_Sniper",												//Sniper
+	"LM_OPCAN_URA_Sniper",												//Sniper
+	"LM_OPCAN_Frihelm",												//Sniper
+	"LM_OPCAN_Frihelm_W_DES",												//Sniper
+	"OPTRE_Ins_ER_Assassin",												//Assassin
+	"OPTRE_Ins_ER_Terrorrist",												//Terror
+	"OPTRE_Ins_URF_Pilot",												//Pilot
+	"LM_OPCAN_FRI_RTO",														//RTO
+	"OPTRE_Ins_URF_Radioman",														//RTO
+	"LM_OPCAN_KOS_RTO",														//RTO
+	"LM_OPCAN_FRI_RTO_DES",													//RTO
+	"OPTRE_Ins_URF_Demolitions",													//Demolitions
+	"LM_OPCAN_SU_Engineer",													//Engineer
+	"LM_OPCAN_URA_Engineer"	,												//Engineer
+	"LM_OPCAN_FRI_Engineer_DES"	,												//Engineer
+	"LM_OPCAN_FRI_Engineer"	,												//Engineer
+	"LM_OPCAN_FRI_Engineer",													//Engineer
+	"OPTRE_Ins_URF_Assist_Autorifleman",												//Assistant AR
+	"OPTRE_Ins_ER_Surgeon",												//Medic
+	"LM_OPCAN_FRI_Medic_DES",												//Medic
+	"LM_OPCAN_FRI_Medic_WDL",												//Medic
+	"LM_OPCAN_SU_Medic",												//Medic
+	"LM_OPCAN_KOS_Medic",												//Medic
+	"LM_OPCAN_URA_Medic",												//Medic
+	"LM_OPCAN_FRI_Crewman",												//Crewman
+	"LM_OPCAN_KOS_Crewman",												//Crewman
+	"OPTRE_Ins_URF_Crewman",												//Crewman
+	"LM_OPCAN_FRI_Crewman_DES",												//Crewman
+	"LM_OPCAN_FRI_Crewman_WDL",												//Crewman
+	"LM_OPCAN_URA_Crewman",												//Crewman
+	"OPTRE_Ins_ER_Hacker",													//Engineer
+	"LM_OPCAN_FRI_Rifleman_DES",												//Rifleman (Lite)
+	"OPTRE_Ins_ER_Farmer",														//Rifleman (Lite)
+	"LM_OPCAN_FRI_Officer_WDL",												//Officer
+	"LM_OPCAN_FRI_Officer_DES",												//Officer
+	"LM_OPCAN_FRI_Officer",												//Officer
+	"LM_OPCAN_KOS_Officer",												//Officer
+	"OPTRE_Ins_URF_Officer",												//Officer
+	"LM_OPCAN_SU_Officer",												//Officer
+	"LM_OPCAN_URA_Officer",												//Officer
+	"OPTRE_FC_Elite_HonorGuard_Ultra",												//Ves 'Padde
+	"OPTRE_FC_Elite_HonorGuard",												//Sangheili Honor Guard
+	"OPTRE_FC_Elite_FieldMarshal",												//Sangheili Field Marshal
+	"OPTRE_FC_Elite_Zealot",												//Sangheili Zealot
+	"OPTRE_FC_Elite_Ultra",												//Sangheili Ultra
+	"OPTRE_FC_Elite_SpecOps",												//Sangheili Ranger
+	"OPTRE_FC_Elite_Major",												//Sangheili Major
+	"OPTRE_FC_Elite_Minor",												//Sangheili Minor
+	"LM_OPCAN_URA_SL",														//SL
+	"OPTRE_Ins_URF_SquadeLead",														//SL
+	"OPTRE_Ins_URF_TeamLead",														//TL
+	"LM_OPCAN_KOS_SL",														//SL
+	"LM_OPCAN_KOS_TL",														//SL
+	"LM_OPCAN_URA_TL",														//TL
+	"LM_OPCAN_SE_SL",														//SL
+	"LM_OPCAN_FRI_SL_DES",														//SL
+	"LM_OPCAN_SU_TL",														//TL
+	"LM_OPCAN_FRI_TL_DES",														//TL
+	"LM_OPCAN_FRI_GL_DES",														//GL
+	"LM_OPCAN_FRI_TL_WDL",														//TL
+	"LM_OPCAN_FRI_GL_WDL",														//GL
+	"LM_OPCAN_SU_GL",														//GL
+	"LM_OPCAN_URA_GL",														//GL
+	"LM_OPCAN_URA_SL",														//SL
+	"LM_OPCAN_URA_TL",														//TL
+	"LM_OPCAN_SE_SL",														//SL
+	"LM_OPCAN_FRI_SL_DES",														//SL
+	"LM_OPCAN_SU_TL",														//TL
+	"LM_OPCAN_FRI_TL_DES",														//TL
+	"LM_OPCAN_FRI_TL",														//TL
+	"LM_OPCAN_FRI_SL",														//SL
+	"LM_OPCAN_FRI_GL_DES",														//GL
+	"LM_OPCAN_FRI_TL_WDL",														//TL
+	"LM_OPCAN_FRI_GL_WDL",														//GL
+	"LM_OPCAN_SU_GL",														//GL
+	"LM_OPCAN_FRI_GL",														//GL
+	"LM_OPCAN_URA_GL",														//GL
+	"OPTRE_Ins_ER_Guerilla_AR",														//Rifleman
+	"OPTRE_Ins_ER_MAdvisor",														//Militia Advisor
+	"OPTRE_Ins_URF_Observer",														//Observer
+	"LM_OPCAN_SU_Rifleman",														//Rifleman
+	"LM_OPCAN_URA_Rifleman",														//Rifleman
+	"OPTRE_Ins_ER_Guerilla_AR",														//Rifleman
+	"OPTRE_Ins_ER_Rebel_AT",													//Rifleman (AT)
+	"OPTRE_Ins_URF_Rifleman_AT",													//Rifleman (AT)
+	"OPTRE_Ins_URF_AT_Specialist",													//Rifleman (AT)
+	"OPTRE_Ins_URF_AS_Specialist",													//Rifleman (AA)
+	"LM_OPCAN_FRI_Rifleman_AT",													//Rifleman (AT)
+	"LM_OPCAN_KOS_Rifleman_AT",													//Rifleman (AT)
+	"LM_OPCAN_FRI_Rifleman",													//Rifleman
+	"LM_OPCAN_FRI_Rifleman_AT_DES",													//Rifleman (AT)
+	"LM_OPCAN_FRI_Rifleman_DES",													//Rifleman
+	"LM_OPCAN_FRI_Rifleman_WDL",													//Rifleman
+	"LM_OPCAN_SU_Rifleman_AT",													//Rifleman (AT)
+	"LM_OPCAN_URA_Rifleman_AT",													//Rifleman (AT)
+	"OPTRE_Ins_ER_Deserter_GL",													//GL
+	"OPTRE_Ins_URF_Rifleman_AR",													//Rifleman
+	"OPTRE_Ins_URF_Rifleman_BR",													//Rifleman
+	"OPTRE_Ins_URF_Rifleman_Light",													//Rifleman
+	"OPTRE_Ins_URF_Grenadier",													//GL
+	"OPTRE_Ins_URF_UAV_Op",													//UAV Operator
+	"LM_OPCAN_SU_AutoRifleman",													//Autorifleman
+	"LM_OPCAN_URA_AutoRifleman",													//Autorifleman
+	"LM_OPCAN_FRI_AutoRifleman_DES",											//Autorifleman
+	"LM_OPCAN_KOS_AutoRifleman",											//Autorifleman
+	"LM_OPCAN_FRI_AutoRifleman",											//Autorifleman
+	"LM_OPCAN_FRI_AutoRifleman_WDL",									//Autorifleman
+	"OPTRE_Ins_URF_Autorifleman",											//Autorifleman
+	"OPTRE_Ins_ER_Militia_MG",											//Militia MG
+	"OPTRE_FC_Elite_HonorGuard_Ultra",												//Ves 'Padde
+	"OPTRE_FC_Elite_HonorGuard",												//Sangheili Honor Guard
+	"OPTRE_FC_Elite_FieldMarshal",												//Sangheili Field Marshal
+	"OPTRE_FC_Elite_Zealot",												//Sangheili Zealot
+	"OPTRE_FC_Elite_Ultra",												//Sangheili Ultra
+	"OPTRE_FC_Elite_SpecOps",												//Sangheili Ranger
+	"OPTRE_FC_Elite_Major",												//Sangheili Major
+	"OPTRE_FC_Elite_Minor",												//Sangheili Minor
+	"LM_OPCAN_URA_Breacher",												//Breacher
+	"LM_OPCAN_SU_Breacher",												//Breacher
+	"LM_OPCAN_FRI_Breacher",												//Breacher
+	"LM_OPCAN_FRI_Breacher_DES",												//Breacher
+	"OPTRE_Ins_ER_Insurgent_BR",													//Marksman
+	"LM_OPCAN_FRI_Marksman_DES",													//Marksman
+	"LM_OPCAN_FRI_Marksman",													//Marksman
+	"LM_OPCAN_URF_Marksman",													//Marksman
+	"LM_OPCAN_SU_Marksman",													//Marksman
+	"LM_OPCAN_URA_Marksman",													//Marksman
+	"LM_OPCAN_SU_Sniper",												//Sniper
+	"OPTRE_Ins_URF_Sniper",												//Sniper
+	"OPTRE_Ins_KOS_Sniper",												//Sniper
+	"LM_OPCAN_URA_Sniper",												//Sniper
+	"LM_OPCAN_Frihelm",												//Sniper
+	"LM_OPCAN_Frihelm_W_DES",												//Sniper
+	"OPTRE_Ins_ER_Assassin",												//Assassin
+	"OPTRE_Ins_ER_Terrorrist",												//Terror
+	"OPTRE_Ins_URF_Pilot",												//Pilot
+	"LM_OPCAN_FRI_RTO",														//RTO
+	"OPTRE_Ins_URF_Radioman",														//RTO
+	"LM_OPCAN_KOS_RTO",														//RTO
+	"LM_OPCAN_FRI_RTO_DES",													//RTO
+	"OPTRE_Ins_URF_Demolitions",													//Demolitions
+	"LM_OPCAN_SU_Engineer",													//Engineer
+	"LM_OPCAN_URA_Engineer"	,												//Engineer
+	"LM_OPCAN_FRI_Engineer_DES"	,												//Engineer
+	"LM_OPCAN_FRI_Engineer"	,												//Engineer
+	"LM_OPCAN_FRI_Engineer",													//Engineer
+	"OPTRE_Ins_URF_Assist_Autorifleman",												//Assistant AR
+	"OPTRE_Ins_ER_Surgeon",												//Medic
+	"LM_OPCAN_FRI_Medic_DES",												//Medic
+	"LM_OPCAN_FRI_Medic_WDL",												//Medic
+	"LM_OPCAN_SU_Medic",												//Medic
+	"LM_OPCAN_KOS_Medic",												//Medic
+	"LM_OPCAN_URA_Medic",												//Medic
+	"LM_OPCAN_FRI_Crewman",												//Crewman
+	"LM_OPCAN_KOS_Crewman",												//Crewman
+	"OPTRE_Ins_URF_Crewman",												//Crewman
+	"LM_OPCAN_FRI_Crewman_DES",												//Crewman
+	"LM_OPCAN_FRI_Crewman_WDL",												//Crewman
+	"LM_OPCAN_URA_Crewman",												//Crewman
+	"OPTRE_Ins_ER_Hacker"													//Engineer
 ];
 
-// Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
+// Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders.
 militia_vehicles = [
-    "O_LSV_02_armed_F"                                                  // Qilin (armed)
+	"OPTRE_M12_LRV_ins",													//Qilin (armed)
+	"LM_OPCAN_Rake_SU_AT",														//Rake V-5 (AT)
+	"LM_OPCAN_Rake_FRI_HMG"													//Rake V-5 (HMG)
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
-    "O_MRAP_02_hmg_F",                                                  // Ifrit (HMG)
-    "O_MRAP_02_hmg_F",                                                  // Ifrit (GMG)
-    "O_MRAP_02_gmg_F",                                                  // Ifrit (GMG)
-    "O_LSV_02_AT_F",                                                    // Qilin (AT)
-    "O_APC_Tracked_02_cannon_F",                                        // BTR-K Kamysh
-    "O_APC_Tracked_02_cannon_F",                                        // BTR-K Kamysh
-    "O_APC_Tracked_02_AA_F",                                            // ZSU-39 Tigris
-    "O_APC_Tracked_02_AA_F",                                            // ZSU-39 Tigris
-    "O_MBT_02_cannon_F",                                                // T-100 Varsuk
-    "O_MBT_02_cannon_F",                                                // T-100 Varsuk
-    "O_MBT_04_cannon_F",                                                // T-140 Angara
-    "O_MBT_04_command_F"                                                // T-140K Angara
+	"OPTRE_M12_LRV_ins",													//Ifrit (HMG)
+	"OPTRE_M12_LRV_ins",													//Ifrit (GMG)
+	"OPTRE_M12A1_LRV_ins",													//Ifrit (GMG)
+	"OPTRE_Static_FG75",													//FG75 Anti-Tank Gun
+	"OPTRE_m1015_mule_ins",													//Qilin (AT)
+	"LM_OPCAN_M350_FRI",														//M350 Recluse
+	"LM_OPCAN_MBTB_KOS",														//M1022 Beetle
+	"LM_OPCAN_Rake_SU_AT",														//Rake V-5 (AT)
+	"LM_OPCAN_Rake_FRI_HMG",													//Rake V-5 (HMG)
+	"OPTRE_M12A1_LRV_ins",										//BTR-K Kamysh
+	"OPTRE_M12R_AA_ins",										//BTR-K Kamysh
+	"OPTRE_M12R_AA_ins",											//ZSU-39 Tigris
+	"OPTRE_m1015_mule_ins",											//ZSU-39 Tigris
+	"OPTRE_m1015_mule_ins"												//T-100 Varsuk
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
-    "O_MRAP_02_hmg_F",                                                  // Ifrit (HMG)
-    "O_MRAP_02_hmg_F",                                                  // Ifrit (HMG)
-    "O_LSV_02_AT_F",                                                    // Qilin (AT)
-    "O_APC_Wheeled_02_rcws_F",                                          // MSE-3 Marid
-    "O_APC_Tracked_02_cannon_F"                                         // BTR-K Kamysh
+	"OPTRE_M12_LRV_ins",													//Ifrit (HMG)
+	"OPTRE_M12_LRV_ins",													//Ifrit (HMG)
+	"OPTRE_m1015_mule_ins",													//Qilin (AT)
+	"LM_OPCAN_Rake_SU_AT",														//Rake V-5 (AT)
+	"LM_OPCAN_Rake_FRI_HMG",													//Rake V-5 (HMG)
+	"LM_OPCAN_M350_FRI",														//M350 Recluse
+	"LM_OPCAN_MBTB_KOS",														//M1022 Beetle
+	"OPTRE_m1015_mule_ins",											//MSE-3 Marid 
+	"OPTRE_M12A1_LRV_ins"											//BTR-K Kamysh
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
-    "O_MRAP_02_hmg_F",                                                  // Ifrit (HMG)
-    "O_MRAP_02_gmg_F",                                                  // Ifrit (GMG)
-    "O_MRAP_02_gmg_F",                                                  // Ifrit (GMG)
-    "O_LSV_02_AT_F",                                                    // Qilin (AT)
-    "O_Truck_03_transport_F",                                           // Tempest Transport
-    "O_Truck_03_covered_F",                                             // Tempest Transport (Covered)
-    "O_APC_Tracked_02_cannon_F",                                        // BTR-K Kamysh
-    "O_APC_Tracked_02_cannon_F",                                        // BTR-K Kamysh
-    "O_APC_Tracked_02_AA_F",                                            // ZSU-39 Tigris
-    "O_APC_Tracked_02_AA_F",                                            // ZSU-39 Tigris
-    "O_MBT_02_cannon_F",                                                // T-100 Varsuk
-    "O_MBT_02_cannon_F",                                                // T-100 Varsuk
-    "O_MBT_04_cannon_F",                                                // T-140 Angara
-    "O_MBT_04_command_F",                                               // T-140K Angara
-    "O_Heli_Light_02_dynamicLoadout_F",                                 // Po-30 Orca (Armed)
-    "O_Heli_Light_02_dynamicLoadout_F",                                 // Po-30 Orca (Armed)
-    "O_Heli_Transport_04_bench_F",                                      // Mi-290 Taru (Bench)
-    "O_Heli_Attack_02_dynamicLoadout_F"                                 // Mi-48 Kajman
+	"OPTRE_M12_LRV_ins",													//Ifrit (HMG)
+	"OPTRE_M12_LRV_ins",													//Ifrit (GMG)
+	"OPTRE_M12_LRV_ins",													//Ifrit (GMG)
+	"OPTRE_M12_FAV_APC",													//Qilin (AT)
+	"LM_OPCAN_Rake_SU_AT",														//Rake V-5 (AT)
+	"LM_OPCAN_Rake_FRI_HMG",													//Rake V-5 (HMG)
+	"LM_OPCAN_M350_FRI",														//M350 Recluse
+	"LM_OPCAN_MBTB_KOS",														//M1022 Beetle
+	"OPTRE_m1015_mule_ins",											//Tempest Transport
+	"OPTRE_M12R_AA_ins",												//Tempest Transport (Covered)
+	"OPTRE_M12R_AA_ins",										//BTR-K Kamysh
+	"OPTRE_m1015_mule_ins",										//BTR-K Kamysh
+	"OPTRE_m1015_mule_ins",											//ZSU-39 Tigris
+	"OPTRE_M12A1_LRV_ins",											//ZSU-39 Tigris
+	"OPTRE_M12A1_LRV_ins",												//T-100 Varsuk
+	"OPTRE_m1015_mule_ins",												//T-100 Varsuk
+	"OPTRE_UNSC_hornet_ins",												//T-140 Angara
+	"OPTRE_UNSC_hornet_ins",												//T-140K Angara
+	"OPTRE_Pelican_unarmed_ins",									//Po-30 Orca (Armed)
+	"OPTRE_Pelican_armed_ins",									//Po-30 Orca (Armed)
+	"OPTRE_Pelican_armed_ins",										//Mi-290 Taru (Bench)
+	"OPTRE_Pelican_armed_ins"									//Mi-48 Kajman
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
-    "O_MRAP_02_hmg_F",                                                  // Ifrit (HMG)
-    "O_MRAP_02_hmg_F",                                                  // Ifrit (HMG)
-    "O_Truck_03_transport_F",                                           // Tempest Transport
-    "O_APC_Wheeled_02_rcws_F",                                          // MSE-3 Marid
-    "O_APC_Tracked_02_cannon_F",                                        // BTR-K Kamysh
-    "O_APC_Tracked_02_AA_F",                                            // ZSU-39 Tigris
-    "O_Heli_Light_02_dynamicLoadout_F",                                 // Po-30 Orca (Armed)
-    "O_Heli_Transport_04_bench_F"                                       // Mi-290 Taru (Bench)
+	"OPTRE_M12_LRV_ins",													//Ifrit (HMG)
+	"OPTRE_M12_LRV_ins",													//Ifrit (HMG)
+	"OPTRE_m1015_mule_ins",													//Qilin (AT)
+	"LM_OPCAN_Rake_SU_AT",														//Rake V-5 (AT)
+	"LM_OPCAN_Rake_FRI_HMG",													//Rake V-5 (HMG)
+	"LM_OPCAN_M350_FRI",														//M350 Recluse
+	"LM_OPCAN_MBTB_KOS",														//M1022 Beetle
+	"OPTRE_M12_FAV_APC",											//Tempest Transport
+	"OPTRE_M12_FAV_APC",											//MSE-3 Marid 
+	"OPTRE_m1015_mule_ins",										//BTR-K Kamysh
+	"OPTRE_m1015_mule_ins",											//ZSU-39 Tigris
+	"OPTRE_Pelican_unarmed_ins",									//Po-30 Orca (Armed)
+	"OPTRE_Pelican_unarmed_ins"										//Mi-290 Taru (Bench)
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
-If something in this array can't hold all 8 soldiers then buggy behaviours may occur.    */
+If something in this array can't hold all 8 soldiers then buggy behaviours may occur.	*/
 opfor_troup_transports = [
-    "O_Truck_03_transport_F",                                           // Tempest Transport
-    "O_Truck_03_covered_F",                                             // Tempest Transport (Covered)
-    "O_APC_Wheeled_02_rcws_F",                                          // MSE-3 Marid
-    "O_Heli_Transport_04_bench_F",                                      // Mi-290 Taru (Bench)
-    "O_Heli_Light_02_dynamicLoadout_F"                                  // Po-30 Orca (Armed)
+	"OPTRE_m1015_mule_ins",											//Tempest Transport
+	"OPTRE_m1015_mule_ins",												//Tempest Transport (Covered)
+	"OPTRE_Pelican_unarmed_ins",											//MSE-3 Marid 
+	"OPTRE_Pelican_unarmed_ins",										//Mi-290 Taru (Bench)
+	"OPTRE_Pelican_armed_ins"									//Po-30 Orca (Armed)
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
-    "O_Heli_Transport_04_bench_F",                                      // Mi-290 Taru (Bench)
-    "O_Heli_Light_02_dynamicLoadout_F",                                 // Po-30 Orca (Armed)
-    "O_Heli_Attack_02_dynamicLoadout_F"                                 // Mi-48 Kajman
+	"OPTRE_Pelican_unarmed_ins",										//Mi-290 Taru (Bench)
+	"LM_OPCAN_D77_A_SU",									//Po-30 Orca (Armed)
+	"LM_OPCAN_AV92_KOS",								//AV-92 Harpy
+	"OPTRE_UNSC_hornet_ins"									//Mi-48 Kajman
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-    "O_Plane_CAS_02_dynamicLoadout_F",                                  // To-199 Neophron (CAS)
-    "O_Plane_Fighter_02_F"                                              // To-201 Shikra
+	"OPTRE_FC_Spirit",														//Type-25 Spirit Clas DropShip
+	"OPTRE_FC_Type26N_Banshee",													//Type-26N Needler Banshee
+	"OPTRE_FC_Type26B_Banshee",													//Type-26B Banshee
+	"OPTRE_FC_Type27_Banshee"													//Type-27 Space Banshee
 ];
