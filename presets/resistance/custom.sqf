@@ -9,10 +9,13 @@ Optional Mods:
 /* Classnames of the guerilla faction which is friendly or hostile, depending on the civil reputation 
 Standard loadout of the units will be replaced with a scripted one, which depends on the guerilla strength, after spawn */
 KP_liberation_guerilla_units = [
+	"OPTRE_FC_Elite_FieldMarshal",
 	"OPTRE_FC_Elite_Minor",
 	"OPTRE_FC_Elite_Major",
 	"OPTRE_FC_Elite_SpecOps",
 	"OPTRE_FC_Elite_Ultra",
+	"OPTRE_FC_Elite_HonorGuard_Ultra",												//Ves 'Padde
+	"OPTRE_FC_Elite_HonorGuard",												//Sangheili Honor Guard
 	"OPTRE_FC_Elite_Zealot"
 ];
 

@@ -165,14 +165,6 @@ militia_squad = [
 	"OPTRE_Ins_URF_Officer",												//Officer
 	"LM_OPCAN_SU_Officer",												//Officer
 	"LM_OPCAN_URA_Officer",												//Officer
-	"OPTRE_FC_Elite_HonorGuard_Ultra",												//Ves 'Padde
-	"OPTRE_FC_Elite_HonorGuard",												//Sangheili Honor Guard
-	"OPTRE_FC_Elite_FieldMarshal",												//Sangheili Field Marshal
-	"OPTRE_FC_Elite_Zealot",												//Sangheili Zealot
-	"OPTRE_FC_Elite_Ultra",												//Sangheili Ultra
-	"OPTRE_FC_Elite_SpecOps",												//Sangheili Ranger
-	"OPTRE_FC_Elite_Major",												//Sangheili Major
-	"OPTRE_FC_Elite_Minor",												//Sangheili Minor
 	"LM_OPCAN_URA_SL",														//SL
 	"OPTRE_Ins_URF_SquadeLead",														//SL
 	"OPTRE_Ins_URF_TeamLead",														//TL
@@ -234,14 +226,6 @@ militia_squad = [
 	"LM_OPCAN_FRI_AutoRifleman_WDL",									//Autorifleman
 	"OPTRE_Ins_URF_Autorifleman",											//Autorifleman
 	"OPTRE_Ins_ER_Militia_MG",											//Militia MG
-	"OPTRE_FC_Elite_HonorGuard_Ultra",												//Ves 'Padde
-	"OPTRE_FC_Elite_HonorGuard",												//Sangheili Honor Guard
-	"OPTRE_FC_Elite_FieldMarshal",												//Sangheili Field Marshal
-	"OPTRE_FC_Elite_Zealot",												//Sangheili Zealot
-	"OPTRE_FC_Elite_Ultra",												//Sangheili Ultra
-	"OPTRE_FC_Elite_SpecOps",												//Sangheili Ranger
-	"OPTRE_FC_Elite_Major",												//Sangheili Major
-	"OPTRE_FC_Elite_Minor",												//Sangheili Minor
 	"LM_OPCAN_URA_Breacher",												//Breacher
 	"LM_OPCAN_SU_Breacher",												//Breacher
 	"LM_OPCAN_FRI_Breacher",												//Breacher
@@ -388,8 +372,5 @@ opfor_choppers = [
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-	"OPTRE_FC_Spirit",														//Type-25 Spirit Clas DropShip
-	"OPTRE_FC_Type26N_Banshee",													//Type-26N Needler Banshee
-	"OPTRE_FC_Type26B_Banshee",													//Type-26B Banshee
-	"OPTRE_FC_Type27_Banshee"													//Type-27 Space Banshee
+
 ];
