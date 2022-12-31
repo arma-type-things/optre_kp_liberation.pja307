@@ -2840,6 +2840,11 @@
             <Korean>공수 낙하</Korean>
             <Czech>HALO SKOK</Czech>
         </Key>
+        <Key ID="STR_ODST_ACTION">
+            <Original>-- ODST DROP - NO SPARTANS</Original>
+            <French>-- CHUTE ODST</French>
+            <German>-- ODST-TROPFEN</German>
+        </Key>
         <Key ID="STR_PARAM_CLEAR_CARGO">
             <Original>Clear spawned vehicle cargo</Original>
             <German>Inventar gespawnter Fahrzeuge leeren</German>
