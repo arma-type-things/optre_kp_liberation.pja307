@@ -993,7 +993,7 @@ class Mission
 			dataType="Marker";
 			position[]={12156.963,290.58862,13804.859};
 			name="tower_27";
-			text="Fuel";
+			text="Radio Tower";
 			type="loc_Transmitter";
 			colorName="ColorEAST";
 			id=1499;
@@ -1004,7 +1004,7 @@ class Mission
 			dataType="Marker";
 			position[]={4453.3828,304.884,4142.0518};
 			name="factory1";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1500;
@@ -1015,7 +1015,7 @@ class Mission
 			dataType="Marker";
 			position[]={7828.9849,324.09399,729.17999};
 			name="factory2";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1501;
@@ -1026,7 +1026,7 @@ class Mission
 			dataType="Marker";
 			position[]={11307.066,321.371,3312.896};
 			name="factory11";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1502;
@@ -1037,7 +1037,7 @@ class Mission
 			dataType="Marker";
 			position[]={14396.97,422.94601,1033.5081};
 			name="factory17";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1503;
@@ -1048,7 +1048,7 @@ class Mission
 			dataType="Marker";
 			position[]={18160.752,355.77802,4197.9331};
 			name="factory18";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1504;
@@ -1059,7 +1059,7 @@ class Mission
 			dataType="Marker";
 			position[]={16030.428,360.349,5545.6821};
 			name="factory19";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1505;
@@ -1070,7 +1070,7 @@ class Mission
 			dataType="Marker";
 			position[]={14639.198,367.755,8157.3452};
 			name="factory20";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1506;
@@ -1081,7 +1081,7 @@ class Mission
 			dataType="Marker";
 			position[]={9030.79,323.33801,5626.4102};
 			name="factory22";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1507;
@@ -1092,7 +1092,7 @@ class Mission
 			dataType="Marker";
 			position[]={4894.3579,295.849,7061.103};
 			name="factory21";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1508;
@@ -1103,7 +1103,7 @@ class Mission
 			dataType="Marker";
 			position[]={2835.46,285.39999,11768.925};
 			name="factory16";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1509;
@@ -1114,7 +1114,7 @@ class Mission
 			dataType="Marker";
 			position[]={5490.6021,267.17999,18871.039};
 			name="factory10";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1510;
@@ -1125,7 +1125,7 @@ class Mission
 			dataType="Marker";
 			position[]={5338.4351,273.77899,14554.494};
 			name="factory3";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1511;
@@ -1147,7 +1147,7 @@ class Mission
 			dataType="Marker";
 			position[]={7850.729,272.52838,12094.998};
 			name="factory12";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1513;
@@ -1158,7 +1158,7 @@ class Mission
 			dataType="Marker";
 			position[]={6827.8423,280.327,12348.626};
 			name="capture_18";
-			text="Rebels Fuel  Station";
+			text="Rebel Fuel Station";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1514;
@@ -1169,7 +1169,7 @@ class Mission
 			dataType="Marker";
 			position[]={9276.123,304.23999,9840.4482};
 			name="factory13";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1515;
@@ -1180,7 +1180,7 @@ class Mission
 			dataType="Marker";
 			position[]={11685.938,310.87,10874.556};
 			name="factory14";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1516;
@@ -1191,7 +1191,7 @@ class Mission
 			dataType="Marker";
 			position[]={12198.334,313.08301,12880.661};
 			name="factory9";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1517;
@@ -1202,7 +1202,7 @@ class Mission
 			dataType="Marker";
 			position[]={15039.8,372.349,12147.782};
 			name="factory8";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1518;
@@ -1213,7 +1213,7 @@ class Mission
 			dataType="Marker";
 			position[]={13316.29,424.13,16237.629};
 			name="factory7";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1519;
@@ -1224,7 +1224,7 @@ class Mission
 			dataType="Marker";
 			position[]={17123.547,287.94101,18613.285};
 			name="factory6";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1520;
@@ -1235,7 +1235,7 @@ class Mission
 			dataType="Marker";
 			position[]={16235.398,310.172,15420.904};
 			name="factory5";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1521;
@@ -1246,7 +1246,7 @@ class Mission
 			dataType="Marker";
 			position[]={8493.5645,284.76501,14250.161};
 			name="factory4";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1522;
@@ -1257,7 +1257,7 @@ class Mission
 			dataType="Marker";
 			position[]={6897.374,273.99799,16246.952};
 			name="factory15";
-			text="Fuel";
+			text="Supply Depot";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1523;
@@ -1290,7 +1290,7 @@ class Mission
 			dataType="Marker";
 			position[]={16924.82,407.71201,19886.504};
 			name="capture_20";
-			text="Abondoned Airfiled";
+			text="Abandoned Airfield";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1526;
@@ -1301,7 +1301,7 @@ class Mission
 			dataType="Marker";
 			position[]={14218.957,419.22705,6554.5161};
 			name="capture_21";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1527;
@@ -1312,7 +1312,7 @@ class Mission
 			dataType="Marker";
 			position[]={10678.857,318.68567,6462.5791};
 			name="capture_22";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1528;
@@ -1322,7 +1322,7 @@ class Mission
 			dataType="Marker";
 			position[]={19166.02,302.28903,18917.645};
 			name="capture_23";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1529;
@@ -1333,7 +1333,7 @@ class Mission
 			dataType="Marker";
 			position[]={9508.5723,280.51782,15657.681};
 			name="capture_24";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1530;
@@ -1343,7 +1343,7 @@ class Mission
 			dataType="Marker";
 			position[]={3449.5515,283.00381,15117.731};
 			name="capture_25";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1531;
@@ -1354,7 +1354,7 @@ class Mission
 			dataType="Marker";
 			position[]={3845.2246,289.64294,17057.844};
 			name="capture_26";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1532;
@@ -1364,7 +1364,7 @@ class Mission
 			dataType="Marker";
 			position[]={417.95898,275.27121,15009.844};
 			name="capture_27";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1533;
@@ -1374,7 +1374,7 @@ class Mission
 			dataType="Marker";
 			position[]={2586.7922,287.94702,19828.35};
 			name="capture_28";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1534;
@@ -1385,7 +1385,7 @@ class Mission
 			dataType="Marker";
 			position[]={3594.4487,300.18167,10203.318};
 			name="capture_29";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1535;
@@ -1395,7 +1395,7 @@ class Mission
 			dataType="Marker";
 			position[]={3305.0459,317.20679,5969.9561};
 			name="capture_30";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1536;
@@ -1406,7 +1406,7 @@ class Mission
 			dataType="Marker";
 			position[]={8967.9287,328.64648,4195.249};
 			name="capture_31";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1537;
@@ -1417,7 +1417,7 @@ class Mission
 			dataType="Marker";
 			position[]={9998.0342,352.04199,1793.9929};
 			name="capture_32";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1538;
@@ -1428,7 +1428,7 @@ class Mission
 			dataType="Marker";
 			position[]={13234.978,335.59613,3314.8328};
 			name="capture_33";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1539;
@@ -1439,7 +1439,7 @@ class Mission
 			dataType="Marker";
 			position[]={14565.879,380.84128,5313.1958};
 			name="capture_34";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1540;
@@ -1449,7 +1449,7 @@ class Mission
 			dataType="Marker";
 			position[]={14569.279,354.1311,9160.3164};
 			name="capture_35";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1541;
@@ -1460,7 +1460,7 @@ class Mission
 			dataType="Marker";
 			position[]={17529.068,322.16235,12132.914};
 			name="capture_36";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1542;
@@ -1471,7 +1471,7 @@ class Mission
 			dataType="Marker";
 			position[]={19781.1,343.75903,9103.1436};
 			name="capture_37";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1543;
@@ -1482,7 +1482,7 @@ class Mission
 			dataType="Marker";
 			position[]={19736.83,328.75528,15511.513};
 			name="capture_38";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1544;
@@ -1493,7 +1493,7 @@ class Mission
 			dataType="Marker";
 			position[]={17995.852,306.72534,16638.223};
 			name="capture_39";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1545;
@@ -1504,7 +1504,7 @@ class Mission
 			dataType="Marker";
 			position[]={14578.132,299.89966,17386.344};
 			name="capture_40";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1546;
@@ -1515,7 +1515,7 @@ class Mission
 			dataType="Marker";
 			position[]={19340.58,321.59058,13499.438};
 			name="capture_41";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1547;
@@ -1526,7 +1526,7 @@ class Mission
 			dataType="Marker";
 			position[]={19931.939,325.66943,12374.693};
 			name="capture_42";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1548;
@@ -1537,7 +1537,7 @@ class Mission
 			dataType="Marker";
 			position[]={17701.965,314.49292,13201.573};
 			name="capture_43";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1549;
@@ -1548,7 +1548,7 @@ class Mission
 			dataType="Marker";
 			position[]={18578.289,331.19409,8092.6211};
 			name="capture_44";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1550;
@@ -1558,7 +1558,7 @@ class Mission
 			dataType="Marker";
 			position[]={19897.797,348.74707,6921.0645};
 			name="capture_45";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1551;
@@ -1569,7 +1569,7 @@ class Mission
 			dataType="Marker";
 			position[]={17888.656,343.19922,6441.6836};
 			name="capture_46";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1552;
@@ -1579,7 +1579,7 @@ class Mission
 			dataType="Marker";
 			position[]={16969.145,359.53119,4560.8667};
 			name="capture_47";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1553;
@@ -1589,7 +1589,7 @@ class Mission
 			dataType="Marker";
 			position[]={16885.555,338.43793,2847.2339};
 			name="capture_48";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1554;
@@ -1599,7 +1599,7 @@ class Mission
 			dataType="Marker";
 			position[]={16136.511,331.2793,741.60034};
 			name="capture_49";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1555;
@@ -1610,7 +1610,7 @@ class Mission
 			dataType="Marker";
 			position[]={15708.357,347.14838,6991.71};
 			name="capture_50";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1556;
@@ -1621,7 +1621,7 @@ class Mission
 			dataType="Marker";
 			position[]={15485.391,327.39767,10098.826};
 			name="capture_51";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1557;
@@ -1631,7 +1631,7 @@ class Mission
 			dataType="Marker";
 			position[]={16948.709,318.71973,10776.021};
 			name="capture_52";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1558;
@@ -1642,7 +1642,7 @@ class Mission
 			dataType="Marker";
 			position[]={13211.488,311.18286,9423.6406};
 			name="capture_53";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1559;
@@ -1653,7 +1653,7 @@ class Mission
 			dataType="Marker";
 			position[]={9696.6543,326.12485,8844.9473};
 			name="capture_54";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1560;
@@ -1663,7 +1663,7 @@ class Mission
 			dataType="Marker";
 			position[]={5642.4507,280.25934,8426.9902};
 			name="capture_55";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1561;
@@ -1673,7 +1673,7 @@ class Mission
 			dataType="Marker";
 			position[]={6290.2871,279.76132,10015.233};
 			name="capture_56";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1562;
@@ -1683,7 +1683,7 @@ class Mission
 			dataType="Marker";
 			position[]={5308.083,276.05209,11039.233};
 			name="capture_57";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1563;
@@ -1693,7 +1693,7 @@ class Mission
 			dataType="Marker";
 			position[]={1196.9402,270.40918,12790.451};
 			name="capture_58";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1564;
@@ -1704,7 +1704,7 @@ class Mission
 			dataType="Marker";
 			position[]={1349.9072,270.69336,11213.213};
 			name="capture_59";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1565;
@@ -1715,7 +1715,7 @@ class Mission
 			dataType="Marker";
 			position[]={2642.2981,280.64697,9252.3203};
 			name="capture_60";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1566;
@@ -1726,7 +1726,7 @@ class Mission
 			dataType="Marker";
 			position[]={1311.2786,278.64111,4748.0225};
 			name="capture_61";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1567;
@@ -1737,7 +1737,7 @@ class Mission
 			dataType="Marker";
 			position[]={2702.75,278.99362,3219.8804};
 			name="capture_62";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1568;
@@ -1748,7 +1748,7 @@ class Mission
 			dataType="Marker";
 			position[]={3803.5903,297.1582,1110.2307};
 			name="capture_63";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1569;
@@ -1759,7 +1759,7 @@ class Mission
 			dataType="Marker";
 			position[]={4753.3398,308.93164,2417.1826};
 			name="capture_64";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1570;
@@ -1770,7 +1770,7 @@ class Mission
 			dataType="Marker";
 			position[]={5872.0962,284.90689,6042.96};
 			name="capture_65";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1571;
@@ -1781,7 +1781,7 @@ class Mission
 			dataType="Marker";
 			position[]={8024.8184,324.16345,4916.1318};
 			name="capture_66";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1572;
@@ -1791,7 +1791,7 @@ class Mission
 			dataType="Marker";
 			position[]={5382.1743,287.3103,3260.2466};
 			name="capture_67";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1573;
@@ -1802,7 +1802,7 @@ class Mission
 			dataType="Marker";
 			position[]={8783.1318,335.29053,1305.9631};
 			name="capture_68";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1574;
@@ -1813,7 +1813,7 @@ class Mission
 			dataType="Marker";
 			position[]={9556.2412,335.70361,2854.032};
 			name="capture_69";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1575;
@@ -1824,7 +1824,7 @@ class Mission
 			dataType="Marker";
 			position[]={10956.058,330.75574,907.58423};
 			name="capture_70";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1576;
@@ -1835,7 +1835,7 @@ class Mission
 			dataType="Marker";
 			position[]={12632.332,313.82538,499.28711};
 			name="capture_71";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1577;
@@ -1846,7 +1846,7 @@ class Mission
 			dataType="Marker";
 			position[]={11909.019,321.53613,2052.6501};
 			name="capture_72";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1578;
@@ -1857,7 +1857,7 @@ class Mission
 			dataType="Marker";
 			position[]={11222.207,321.91711,5146.0107};
 			name="capture_73";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1579;
@@ -1867,7 +1867,7 @@ class Mission
 			dataType="Marker";
 			position[]={10344.491,290.23126,12272.213};
 			name="capture_74";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1580;
@@ -1877,7 +1877,7 @@ class Mission
 			dataType="Marker";
 			position[]={8944.3281,287.88916,12920.049};
 			name="capture_75";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1581;
@@ -1887,7 +1887,7 @@ class Mission
 			dataType="Marker";
 			position[]={7006.688,279.50049,13672.955};
 			name="capture_76";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1582;
@@ -1898,7 +1898,7 @@ class Mission
 			dataType="Marker";
 			position[]={6938.1245,278.59573,14759.07};
 			name="capture_77";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1583;
@@ -1908,7 +1908,7 @@ class Mission
 			dataType="Marker";
 			position[]={8212.8994,277.87469,16305.518};
 			name="capture_78";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1584;
@@ -1918,7 +1918,7 @@ class Mission
 			dataType="Marker";
 			position[]={8129.3076,298.21329,18332.619};
 			name="capture_79";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1585;
@@ -1928,7 +1928,7 @@ class Mission
 			dataType="Marker";
 			position[]={2074.0774,274.89307,17749.488};
 			name="capture_80";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1586;
@@ -1939,7 +1939,7 @@ class Mission
 			dataType="Marker";
 			position[]={2373.9075,275.07272,16107.476};
 			name="capture_81";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1587;
@@ -1950,7 +1950,7 @@ class Mission
 			dataType="Marker";
 			position[]={647.83813,269.73669,16848.865};
 			name="capture_82";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1588;
@@ -1960,7 +1960,7 @@ class Mission
 			dataType="Marker";
 			position[]={417.96021,262.08133,18938.66};
 			name="capture_83";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1589;
@@ -1970,7 +1970,7 @@ class Mission
 			dataType="Marker";
 			position[]={5328.9805,275.76764,17517.6};
 			name="capture_84";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1590;
@@ -1980,7 +1980,7 @@ class Mission
 			dataType="Marker";
 			position[]={4827.4292,282.80151,15824.864};
 			name="capture_85";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1591;
@@ -1990,7 +1990,7 @@ class Mission
 			dataType="Marker";
 			position[]={5015.3501,280.02942,19763.188};
 			name="capture_86";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1592;
@@ -2001,7 +2001,7 @@ class Mission
 			dataType="Marker";
 			position[]={4881.895,272.96619,12525.46};
 			name="capture_87";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1593;
@@ -2012,7 +2012,7 @@ class Mission
 			dataType="Marker";
 			position[]={9968.3291,285.71521,14341.111};
 			name="capture_88";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1594;
@@ -2022,7 +2022,7 @@ class Mission
 			dataType="Marker";
 			position[]={10887.84,288.46899,15218.824};
 			name="capture_89";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1595;
@@ -2032,7 +2032,7 @@ class Mission
 			dataType="Marker";
 			position[]={10713.005,286.00854,17848.061};
 			name="capture_90";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1596;
@@ -2043,7 +2043,7 @@ class Mission
 			dataType="Marker";
 			position[]={7604.3862,286.63641,19820.584};
 			name="capture_91";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1597;
@@ -2054,7 +2054,7 @@ class Mission
 			dataType="Marker";
 			position[]={9042.5996,284.21094,16773.039};
 			name="capture_92";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1598;
@@ -2065,7 +2065,7 @@ class Mission
 			dataType="Marker";
 			position[]={14144.639,290.35248,18439.93};
 			name="capture_93";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1599;
@@ -2076,7 +2076,7 @@ class Mission
 			dataType="Marker";
 			position[]={14741.061,299.69409,16117.32};
 			name="capture_94";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1600;
@@ -2087,7 +2087,7 @@ class Mission
 			dataType="Marker";
 			position[]={16150.958,302.4281,16984.445};
 			name="capture_95";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1601;
@@ -2098,7 +2098,7 @@ class Mission
 			dataType="Marker";
 			position[]={19961.879,309.1828,17287.953};
 			name="capture_96";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1602;
@@ -2109,7 +2109,7 @@ class Mission
 			dataType="Marker";
 			position[]={15368.463,297.56567,18942.174};
 			name="capture_97";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1603;
@@ -2120,7 +2120,7 @@ class Mission
 			dataType="Marker";
 			position[]={18423.658,312.52271,14917.213};
 			name="capture_98";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1604;
@@ -2131,7 +2131,7 @@ class Mission
 			dataType="Marker";
 			position[]={15514.404,309.5481,13722.056};
 			name="capture_99";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1605;
@@ -2142,7 +2142,7 @@ class Mission
 			dataType="Marker";
 			position[]={13656.958,458.20728,12722.353};
 			name="capture_100";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1606;
@@ -2153,7 +2153,7 @@ class Mission
 			dataType="Marker";
 			position[]={18139.434,327.51611,9116.6221};
 			name="capture_101";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1607;
@@ -2163,7 +2163,7 @@ class Mission
 			dataType="Marker";
 			position[]={19618.453,329.65283,10497.669};
 			name="capture_102";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1608;
@@ -2174,7 +2174,7 @@ class Mission
 			dataType="Marker";
 			position[]={18971.33,321.82275,11480.449};
 			name="capture_103";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1609;
@@ -2185,7 +2185,7 @@ class Mission
 			dataType="Marker";
 			position[]={4959.502,275.23328,9795.3213};
 			name="capture_104";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1610;
@@ -2196,7 +2196,7 @@ class Mission
 			dataType="Marker";
 			position[]={3752.7573,284.78345,7969.4756};
 			name="capture_105";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1611;
@@ -2207,7 +2207,7 @@ class Mission
 			dataType="Marker";
 			position[]={1821.6139,282.85931,6874.1357};
 			name="capture_106";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1612;
@@ -2218,7 +2218,7 @@ class Mission
 			dataType="Marker";
 			position[]={1035.978,271.36731,9547.7119};
 			name="capture_107";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1613;
@@ -2229,7 +2229,7 @@ class Mission
 			dataType="Marker";
 			position[]={5928.5742,288.69257,4662.771};
 			name="capture_108";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1614;
@@ -2240,7 +2240,7 @@ class Mission
 			dataType="Marker";
 			position[]={6269.3916,281.26105,7591.0732};
 			name="capture_109";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1615;
@@ -2250,7 +2250,7 @@ class Mission
 			dataType="Marker";
 			position[]={7000.8203,285.11526,8489.6855};
 			name="capture_110";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1616;
@@ -2260,7 +2260,7 @@ class Mission
 			dataType="Marker";
 			position[]={7356.0859,284.92444,10767.561};
 			name="capture_111";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1617;
@@ -2270,7 +2270,7 @@ class Mission
 			dataType="Marker";
 			position[]={10894.574,278.92676,16243.804};
 			name="capture_112";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1618;
@@ -2281,7 +2281,7 @@ class Mission
 			dataType="Marker";
 			position[]={4242.2886,276.10986,11227.314};
 			name="capture_113";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1619;
@@ -2292,7 +2292,7 @@ class Mission
 			dataType="Marker";
 			position[]={7815.8423,276.93988,15302.417};
 			name="capture_114";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1620;
@@ -2302,7 +2302,7 @@ class Mission
 			dataType="Marker";
 			position[]={7021.7188,278.57605,17747.479};
 			name="capture_115";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1621;
@@ -2312,7 +2312,7 @@ class Mission
 			dataType="Marker";
 			position[]={3557.95,284.96188,18550.871};
 			name="capture_116";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1622;
@@ -2323,7 +2323,7 @@ class Mission
 			dataType="Marker";
 			position[]={1797.2284,275.46542,14194.825};
 			name="capture_117";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1623;
@@ -2333,7 +2333,7 @@ class Mission
 			dataType="Marker";
 			position[]={3003.3228,278.50653,13527.018};
 			name="capture_118";
-			text="Rebels Threat";
+			text="Patrol Sector";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1624;
