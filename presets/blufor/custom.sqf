@@ -26,7 +26,8 @@ KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";		// A small 
 KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";		// A large storage area for resources.																									Default is "ContainmentArea_01_sand_F".
 KP_liberation_recycle_building = "Land_OPTRE_mod_building_grey";					// The building defined to unlock FOB recycling functionality.																			Default is "Land_CarService_F".
 KP_liberation_air_vehicle_building = "Land_OPTRE_landingpad";				// The building defined to unlock FOB air vehicle functionality.																		Default is "Land_Radar_Small_F".
-KP_liberation_heli_slot_building = "Land_OPTRE_GuarShack_ONI";				// The helipad used to increase the GLOBAL rotary-wing cap.																				Default is "Land_HelipadSquare_F".
+/* Should be Land_OPTRE_GuardShack_ONI */
+KP_liberation_heli_slot_building = "Land_HelipadSquare_F";				// The helipad used to increase the GLOBAL rotary-wing cap.																				Default is "Land_HelipadSquare_F".
 KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";				// The hangar used to increase the GLOBAL fixed-wing cap.																				Default is "Land_TentHangar_V1_F".
 KP_liberation_supply_crate = "CargoNet_01_box_F";						// This defines the supply crates, as in resources.																						Default is "CargoNet_01_box_F".
 KP_liberation_ammo_crate = "B_CargoNet_01_ammo_F";						// This defines the ammunition crates.																									Default is "B_CargoNet_01_ammo_F".
@@ -154,10 +155,10 @@ air_vehicles = [
 	["OPCAN_Pelican_Reach_A",200,125,150],										//D77H-TCI/AV Pelican (Reach)
 	["OPCAN_Pelican_HW_U",200,0,150],										//D77H-TCI Pelican (Halo Wars)
 	["OPCAN_Pelican_HW_A",200,125,150],										//D77H-TCI/AV Pelican (Halo Wars)
-	["OPTRE_AV22A_Sparrowhawk",300,200,200],				//AV_22A Sparrowhawk
-	["OPTRE_AV22B_Sparrowhawk",300,200,200],				//AV_22B Sparrowhawk
-	["OPTRE_AV22C_Sparrowhawk",300,200,200],				//AV_22C Sparrowhawk
-	["OPTRE_AV22D_Sparrowhawk",300,200,200],				//AV_22D Sparrowhawk
+	["OPTRE_AV22A_Sparrowhawk",300,200,200],				//AV_22L Sparrowhawk
+	["OPTRE_AV22B_Sparrowhawk",300,200,200],				//AV_22ML Sparrowhawk
+	["OPTRE_AV22C_Sparrowhawk",300,200,200],				//AV_22 Sparrowhawk
+	["OPTRE_AV22_Sparrowhawk",300,200,200],				//AV_22M Sparrowhawk
 	["OPTRE_Longsword_Bomb",500,250,350],				//GA-TL1/A Longsword (Bomber)
 	["OPTRE_Longsword_CAP",500,250,350],				//GA-TL1/A Longsword (Combat Air Patrol)
 	["OPTRE_Longsword_CAS",500,300,350],				//GA-TL1/A Longsword (Close Air Support)
